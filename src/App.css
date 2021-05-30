@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.beer-size{
+  height: 200px;
+  margin-right: 40px;
+  
+}
+
+.beer-container{
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 80px;
+  margin-left: 20vw;
+}
+
+.beer-right-side{
+  margin-left: 20px;
+  display: flex;
+  flex-flow:column ;
+  align-items: flex-start;
+}
+
+.category{
+  width: 50%;
+margin-top: 100px;
+}
+
+.category-container{
+  margin-bottom: 100px;
+}
+
+.category-parag{
+  width: 40%;
+  margin: 0 auto;
+}
+
+
+a:link ,
+a:visited ,
+
+a:active {
+  color: rgb(18, 18, 22);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(190, 180, 180);
+  text-decoration: none;
+}
+
+.detail{
+  margin-top: 50px;
+}
+
+.fat{
+  font-weight: 800;
 }
